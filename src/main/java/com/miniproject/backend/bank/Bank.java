@@ -1,7 +1,10 @@
 package com.miniproject.backend.bank;
 
+import lombok.Getter;
+
 import javax.persistence.*;
 
+@Getter
 @Entity
 public class Bank {
 
