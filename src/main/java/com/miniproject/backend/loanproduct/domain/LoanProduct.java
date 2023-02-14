@@ -2,7 +2,10 @@ package com.miniproject.backend.loanproduct.domain;
 
 import com.miniproject.backend.bank.Bank;
 import com.miniproject.backend.category.Category;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,6 +13,9 @@ import java.util.List;
 
 @Entity
 @Getter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table()
 public class LoanProduct {
 
