@@ -1,6 +1,6 @@
 package com.miniproject.backend.loanproduct.domain;
 
-import com.miniproject.backend.bank.Bank;
+import com.miniproject.backend.bank.domain.Bank;
 import com.miniproject.backend.category.Category;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
