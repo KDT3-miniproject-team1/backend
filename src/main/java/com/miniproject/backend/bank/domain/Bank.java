@@ -1,4 +1,4 @@
-package com.miniproject.backend.bank;
+package com.miniproject.backend.bank.domain;
 
 import lombok.Getter;
 
